@@ -1,0 +1,121 @@
+@font-face {
+    font-family: 'Roboto Lt';
+    src: url('Roboto-Light.woff2') format('woff2'),
+        url('Roboto-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face 
+{
+    font-family: 'champagne__limousinesregular';
+    src: url('champagne__limousines-webfont.woff2') format('woff2'),
+         url('champagne__limousines-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Mermaid';
+    src: url('Mermaid-Bold.woff2') format('woff2'),
+        url('Mermaid-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    overflow: hidden;
+    background-color: #FAFAFA;
+    margin: 0;
+}
+
+#moitiephoto {
+    width: 50%;
+    height: 100%;
+    float: left;
+
+}
+
+#moitiephoto img:first-of-type {
+    height: 100%;
+    width: 100%;
+}
+
+#moitietexte {
+    width: 50%;
+    height: 100%;
+    float: right;
+}
+
+header {
+padding: 0px 60px;
+}
+
+#entete {
+    background-color: #FAFAFA;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: stretch;
+}
+
+#entete_un {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+    align-content: stretch;
+}
+
+#titre {
+    text-align: left;
+    font-family: 'Mermaid';
+    color: #F27B9C;
+    padding: 0px 60px;
+    padding: 0;
+}
+
+hr {
+    width: 100%;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    /* float: right; */
+    /* position: relative; */
+    bottom: 1px;
+    /* right: 30%; */
+}
+
+nav a {
+    font-size: 2em;
+    color: #000000;
+    font-family: 'champagne__limousinesregular';
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #F27B9C;
+    text-decoration: underline;
+}
+
+ul{
+    font-family: 'champagne__limousinesregular';
+}
+
+.liens{
+    color: #808080;
+    text-decoration: underline;
+    color: #F27B9C;
+}
+
+
