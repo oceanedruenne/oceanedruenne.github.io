@@ -84,9 +84,85 @@ body
     
 }
 
-#titre
+#CV_parent {
+margin-left: 20%;
+margin-right: 20%;
+border-right: 5px solid #F27B9C;
+border-left: 5px solid #F27B9C;
+}
+
+#presentation_CV_enfant1{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-between;
+align-items: center;
+align-content: stretch;
+background-color: #F27B9C;
+margin-block-start: -0.9%;
+}
+
+
+#titreducv {
+font-family: 'champagne__limousinesregular';
+position: relative;
+float: left;
+text-align: left;
+color: white;
+font-size: 3em;
+}
+
+.infos_droite
+{
+text-align: right;
+position: relative;
+float:right;
+color: white;
+font-size: 1.5em;
+font-family: 'champagne__limousinesregular';
+}
+
+#intro {
+font-family: 'champagne__limousinesregular';
+font-size: 1.3em;
+font-weight: bold;
+text-align: center;
+border-left: 5px solid #F27B9C;
+border-right: 5px solid #F27B9C;
+padding-left: 20%;
+padding-right: 20%;
+margin-top: 0%;
+}
+
+#Competences_langues 
+{
+border-left: 5px solid #F27B9C;
+border-right: 5px solid #F27B9C;
+}
+
+.infos_gauche 
 {
     text-align: left;
+    position: relative;
+    float:left;
+    color: #F27B9C;
+    font-size: 1.5em;
+    font-family: 'champagne__limousinesregular';
+}
+
+
+h1 
+{
+    font-family: 'champagne__limousinesregular';
+    position: relative;
+    float: left;
+    text-align: left;
+    color: #F27B9C;
+}
+
+#titre
+{
+    text-align: center;
     font-family: 'Mermaid';
     color: #F27B9C;
     padding: 0px 60px;
@@ -184,13 +260,6 @@ ul
     font-family: 'champagne__limousinesregular';
 }
 
-#moitiephoto
-{
-    width: 50%;
-    height: 100%;
-    float: left;
-
-}
 
 #oceane {
     height: 100%;
@@ -199,7 +268,7 @@ ul
 
 #moitietexte
 {
-    width: 50%;
+    width: 100%;
     height: 100%;
     float: right;
 }
