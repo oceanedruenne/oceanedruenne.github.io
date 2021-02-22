@@ -6,14 +6,6 @@
     font-style: normal;
     font-display: swap;
 }
-@font-face {
-    font-family: 'Vogue';
-    src: url('Vogue-Regular.woff2') format('woff2'),
-        url('Vogue-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
 
 @font-face 
 {
@@ -25,42 +17,6 @@
 }
 
 @font-face {
-    font-family: 'STAY HOME';
-    src: url('STAYHOMERegular.woff2') format('woff2'),
-        url('STAYHOMERegular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Mermaid Swash Caps';
-    src: url('MermaidSwashCaps-Bold.woff2') format('woff2'),
-        url('MermaidSwashCaps-Bold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'SEGA LOGO FONT';
-    src: url('SEGA.woff2') format('woff2'),
-        url('SEGA.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Neuropol X Rg';
-    src: url('NeuropolXRg-Regular.woff2') format('woff2'),
-        url('NeuropolXRg-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
     font-family: 'Mermaid';
     src: url('Mermaid-Bold.woff2') format('woff2'),
         url('Mermaid-Bold.woff') format('woff');
@@ -69,154 +25,61 @@
     font-display: swap;
 }
 
-body
-{
+body {
     overflow: hidden;
     background-color: #FAFAFA;
     margin: 0;
 }
 
-#entete
-{
-    background-color: #FAFAFA;
-    width: max-width;
-    height: 125px;
-    
-}
-
-#CV_parent {
-margin-left: 20%;
-margin-right: 20%;
-border-right: 5px solid #F27B9C;
-border-left: 5px solid #F27B9C;
-}
-
-#presentation_CV_enfant1{
-display: flex;
-flex-direction: row;
-flex-wrap: wrap;
-justify-content: space-between;
-align-items: center;
-align-content: stretch;
-background-color: #F27B9C;
-margin-block-start: -0.9%;
-}
-
-
-#titreducv {
-font-family: 'champagne__limousinesregular';
-position: relative;
-float: left;
-text-align: left;
-color: white;
-font-size: 3em;
-}
-
-.infos_droite
-{
-text-align: right;
-position: relative;
-float:right;
-color: white;
-font-size: 1.5em;
-font-family: 'champagne__limousinesregular';
-}
-
-#intro {
-font-family: 'champagne__limousinesregular';
-font-size: 1.3em;
-font-weight: bold;
-text-align: center;
-border-left: 5px solid #F27B9C;
-border-right: 5px solid #F27B9C;
-padding-left: 20%;
-padding-right: 20%;
-margin-top: 0%;
-}
-
-#Competences_langues 
-{
-border-left: 5px solid #F27B9C;
-border-right: 5px solid #F27B9C;
-}
-
-.infos_gauche 
-{
-    text-align: left;
-    position: relative;
-    float:left;
-    color: #F27B9C;
-    font-size: 1.5em;
-    font-family: 'champagne__limousinesregular';
-}
-
-
-h1 
-{
-    font-family: 'champagne__limousinesregular';
-    position: relative;
+#moitiegauche {
+    width: 50%;
+    height: 100%;
     float: left;
-    text-align: left;
-    color: #F27B9C;
+
 }
 
-#titre
-{
-    text-align: center;
+
+#moitiedroite {
+    width: 50%;
+    height: 100%;
+    float: right;
+}
+
+header {
+padding: 0px 60px;
+}
+
+#entete {
+    background-color: #FAFAFA;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: stretch;
+}
+
+#entete_un {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+    align-content: stretch;
+}
+
+#titre {
+    text-align: left;
     font-family: 'Mermaid';
     color: #F27B9C;
-    padding: 0px 60px;
     padding: 0;
 }
 
-hr 
-{
+hr {
     width: 100%;
 }
 
-#bienvenue 
-{
-    color: #F27B9C;
-    text-align: left;
-    padding: 0px 60px;
-}
-
-h1
-{
-    
-    text-align: right;
-    font-family: 'Roboto Lt';
-    font-size: 2.8em; 
-}
-
-#textun
-{
-    color: #000000;
-    font-size: 2em;
-    font-family: 'champagne__limousinesregular';
-    text-align: left;
-    padding: 0px 60px;
-    
-}
-
-#textdeux
-{
-    font-family: 'champagne__limousinesregular';
-    color: #424141;
-    font-size: 1.5em;
-    padding: 0px 60px;
-
-}
-
-#texttrois
-{
-    font-family: 'champagne__limousinesregular';
-    color: #424141;
-    font-size: 1.2em;
-    padding: 0px 60px;
-}
-nav ul
-{
+nav ul {
     list-style-type: none;
     display: flex;
     justify-content: space-between;
@@ -227,13 +90,7 @@ nav ul
     /* right: 30%; */
 }
 
-header
-{
-padding: 0px 60px;
-}
-
-nav a
-{
+nav a {
     font-size: 2em;
     color: #000000;
     font-family: 'champagne__limousinesregular';
@@ -241,50 +98,47 @@ nav a
     font-weight: bold;
 }
 
-a:hover
-{
+a:hover {
     color: #F27B9C;
     text-decoration: underline;
 }
 
-#gauche
-{
-    color: black;
-    font-family: 'champagne__limousinesregular';
-    border: 3px #00FFF7 solid;
-    font-size: 20px;
-}
-
-ul
-{
+ul{
     font-family: 'champagne__limousinesregular';
 }
 
-
-#oceane {
-    height: 100%;
-    width: 100%;
-}
-
-#moitietexte
-{
-    width: 100%;
-    height: 100%;
-    float: right;
-}
-
-aside
-{
-    position: left;
-}
-
-.liens
-{
+.liens{
     color: #808080;
     text-decoration: underline;
     color: #F27B9C;
-
 }
+
+
+
+
+
+#quisuisje {
+    color: #F27B9C;
+    text-align: left;
+    padding: 0px 60px;
+    font-size: 1.6em;
+}
+
+#p1 {
+    color: #000000;
+    font-size: 1.5em;
+    font-family: 'champagne__limousinesregular';
+    text-align: left;
+    padding: 0px 60px;
+}
+
+#p2 {
+    font-family: 'champagne__limousinesregular';
+    color: #424141;
+    font-size: 1.5em;
+    padding: 0px 60px;
+}
+
 
 
 
