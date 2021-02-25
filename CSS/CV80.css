@@ -12,7 +12,7 @@ body {
 }
 
 #entete-cv {
-    background-color: #F27B9C;
+    background-color: #FF00FF;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -28,35 +28,37 @@ body {
     margin-top: 7%;
     margin-bottom: 7%;
     margin-left: 3%;
-    border: solid;
+    border: solid #00ffff;
 }
 
 #nom-cv {
-    color: white;
-    font-family: 'Roboto-Lt';
+    color: #00ffff;
+    font-family: 'Neuropol X Rg';
     font-size: 2em;
+    text-shadow: 4px 2px #0013FF;
     margin: 0;
-    margin-top: 2%;
     margin-left: 3%;
-
     
 }
 
 .infos-CV {
     text-align: left;
-    font-family: 'Roboto-Lt';
-    font-size: 2em;
-    color: white;
+    font-family: 'Neuropol X Rg';
+    font-size: 1.5em;
+    text-shadow: 4px 2px #0013FF;
+    color: #00ffff;
     margin: 0;
     margin-left: 3%;
 }
 
 #intro {
-    font-family: 'Roboto Lt';
+    font-family: 'Neuropol X Rg';
     text-align: center;
     font-size: 1.5vw;
     align-self: center;
     width: 75%;
+    color: #6CFF00;
+    text-shadow: 2px 2px #00ffff;
 }
 
 #CV {
@@ -91,10 +93,11 @@ body {
 }
 
 .titres {
-    color: #F27B9C;
+    color: #FF00FF;
+    text-shadow: 6px 2px #0013FF;
     font-size: 1.3vw;
     text-align: center;
-    font-family: 'Roboto-Lt';
+    font-family: 'Neuropol X Rg';
 }
 
 .row {
@@ -104,6 +107,8 @@ body {
 	justify-content: space-between;
 	align-items: stretch;
 	align-content: stretch;
+    color: white;
+    margin-left: 1%;
     }
 
 .row div:first-child {
@@ -125,6 +130,8 @@ body {
 	justify-content: flex-start;
 	align-items: stretch;
 	align-content: stretch;
+    color: white;
+    margin-left: 1%;
 }
 
 .row-deux div:first-child {
@@ -137,16 +144,17 @@ body {
 
 .bold {
     font-weight: bold;
-    font-family: 'Roboto Lt';
+    font-family: 'Neuropol X Rg';
 }
 
 .italic {
     font-style: italic;
-    font-family: 'Roboto Lt';
+    font-family: 'Neuropol X Rg';
 }
 
 .tâches {
     font-size: 1vw;
+    font-family: 'Neuropol X Rg';
 }
 
 .CV-section-colonne {
@@ -171,7 +179,7 @@ body {
 
 p
 {
-    font-family: 'Roboto Lt';
+    font-family: 'Neuropol X Rg';
 }
 
 span {
@@ -180,5 +188,7 @@ span {
 
 #interêts {
     font-size: 1vw;
+    color: white;
+    margin-left: 1%;
 }
 

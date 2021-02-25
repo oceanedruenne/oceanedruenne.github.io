@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'VCR OSD Mono';
-    src: url('VCROSDMono.woff2') format('woff2'),
-         url('VCROSDMono.woff') format('woff');
+    src: url(../FONTS/VCROSDMono.woff2) format('woff2'),
+         url(../FONTS/VCROSDMono.woff) format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -9,8 +9,8 @@
 
 @font-face {
     font-family: 'SEGA LOGO FONT';
-    src: url('SEGA.woff2') format('woff2'),
-         url('SEGA.woff') format('woff');
+    src: url(../FONTS/SEGA.woff2) format('woff2'),
+         url(../FONTS/SEGA.woff) format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -18,8 +18,8 @@
 
 @font-face {
     font-family: 'Neuropol X Rg';
-    src: url('NeuropolXRg-Regular.woff2') format('woff2'),
-        url('NeuropolXRg-Regular.woff') format('woff');
+    src: url(../FONTS/NeuropolXRg-Regular.woff2) format('woff2'),
+        url(../FONTS/NeuropolXRg-Regular.woff) format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;

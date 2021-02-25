@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'Roboto Lt';
-    src: url('Roboto-Light.woff2') format('woff2'),
-        url('Roboto-Light.woff') format('woff');
+    src: url(../FONTS/Roboto-Light.woff2) format('woff2'),
+        url(../FONTS/Roboto-Light.woff) format('woff');
     font-weight: 300;
     font-style: normal;
     font-display: swap;
@@ -10,16 +10,16 @@
 @font-face 
 {
     font-family: 'champagne__limousinesregular';
-    src: url('champagne__limousines-webfont.woff2') format('woff2'),
-         url('champagne__limousines-webfont.woff') format('woff');
+    src: url(../FONTS/champagne__limousines-webfont.woff2) format('woff2'),
+         url(../FONTS/champagne__limousines-webfont.woff) format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Mermaid';
-    src: url('Mermaid-Bold.woff2') format('woff2'),
-        url('Mermaid-Bold.woff') format('woff');
+    src: url(../FONTS/MermaidSwashCaps-Bold.woff2) format('woff2'),
+        url(../FONTS/MermaidSwashCaps-Bold.woff) format('woff');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -74,7 +74,7 @@ padding: 0px 60px;
 
 #titre {
     text-align: left;
-    font-family: 'Mermaid';
+    font-family: 'Roboto-Lt';
     color: #F27B9C;
     padding: 0px 60px;
     padding: 0;
@@ -89,10 +89,8 @@ nav ul {
     display: flex;
     justify-content: space-between;
     padding: 0;
-    /* float: right; */
-    /* position: relative; */
     bottom: 1px;
-    /* right: 30%; */
+    
 }
 
 nav a {
@@ -116,6 +114,10 @@ ul{
     color: #808080;
     text-decoration: underline;
     color: #F27B9C;
+}
+
+.flex-item-50 {
+    flex-basis: 50%;
 }
 
 
