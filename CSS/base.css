@@ -25,10 +25,22 @@
     font-display: swap;
 }
 
+html {
+    height: 100%;
+    width: 100%;
+}
+
 body {
-    overflow: hidden;
+    overflow-y: hidden;
     background-color: #FAFAFA;
     margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+#body-container {
+    display: flex;
+    flex-direction: row;
 }
 
 #moitiephoto {
@@ -41,16 +53,20 @@ body {
 #moitiephoto img:first-of-type {
     height: 100%;
     width: 100%;
+    object-fit: cover;
+    object-position: 0px -150px;
 }
 
 #moitietexte {
     width: 50%;
     height: 100%;
     float: right;
+    display: flex;
+    flex-direction: column;
 }
 
 header {
-padding: 0px 60px;
+    padding: 0px 60px;
 }
 
 #entete {
@@ -81,7 +97,7 @@ padding: 0px 60px;
 }
 
 hr {
-    width: 100%;
+    margin: 0;
 }
 
 nav ul {
@@ -101,16 +117,21 @@ nav a {
     font-weight: bold;
 }
 
+#scroll {
+    overflow-y: auto;
+    flex: 1;
+}
+
 a:hover {
     color: #F27B9C;
     text-decoration: underline;
 }
 
-ul{
+ul {
     font-family: 'champagne__limousinesregular';
 }
 
-.liens{
+.liens {
     color: #808080;
     text-decoration: underline;
     color: #F27B9C;

@@ -1,0 +1,37 @@
+@media screen and (max-width: 1200px)
+{
+    nav ul {
+	    flex-direction: column;
+    }
+
+    body {
+        overflow-y: auto;
+    }
+
+
+    #scroll {
+        overflow-y: hidden;
+    }
+
+    #entete_un {
+        justify-content: center;
+    }
+
+    nav ul {
+        align-items: center;
+    }
+
+    #moitiephoto, #moitietexte {
+        width: 100%;
+        float: none;
+    }
+
+    #moitiephoto {
+        height: 20vh;
+    }
+
+    #moitietexte {
+        height: auto;
+    }
+}
+
