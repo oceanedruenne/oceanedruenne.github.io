@@ -44,7 +44,7 @@ body {
     float: left;
 }
 
-#moitiephoto img:first-of-type {
+#moitiephoto img {
     height: 100%;
     width: 100%;
     object-fit: cover;
@@ -98,11 +98,14 @@ header {
     position: relative;
 }
 
+hr {
+    margin: 0;
+}
+
 
 nav ul {
     list-style-type: none;
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
     padding: 0;
 }
@@ -126,15 +129,10 @@ a:hover {
     flex: 1;
 }
 
-hr {
-    margin: 0;
-}
 
 .liens {
     text-decoration: underline;
     color: #00ffff;
 }
-
-
 
 

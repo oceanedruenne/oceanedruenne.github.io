@@ -18,11 +18,12 @@
     }
 
     #moitiephoto {
+        height: 50vh;
         height: 30vh;
         width: 30vh;
         margin-left: auto;
         margin-right: auto;
-        border: 4px solid #f27b9c;
+        border: 4px solid #FF00FF;
     }
 
     #moitietexte {
@@ -33,7 +34,7 @@
 @media screen and (max-width: 800px)
 {
     nav a {
-        font-size: 3em;
+        font-size: 2em;
     }
 
     nav ul {
@@ -43,11 +44,6 @@
 
     nav li {
         margin-bottom: 8px;
-    }
-
-    #titre
-    {
-        font-size: 3em;
     }
 
 }

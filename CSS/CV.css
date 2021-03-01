@@ -1,5 +1,5 @@
 body {
-    overflow: scroll;
+    overflow: auto;
 }
 
 #CV-container {
@@ -19,16 +19,22 @@ body {
     justify-content: flex-start;
     align-items: stretch;
     align-content: stretch;
-    margin-top: -1%;
+}
+
+#entete-cv div:first-child {
+    border: solid;
+    height: 200px;
+    width: 200px;
+    margin: 20px 0px 20px 60px;
 }
 
 #oceane-photo {
-    height: 160px;
-    width: 187px;
-    margin-top: 7%;
-    margin-bottom: 7%;
-    margin-left: 3%;
-    border: solid;
+    width: 100%;
+    height: 100%;
+}
+
+#infos-entete {
+    margin: 20px 0px 20px 10px;
 }
 
 #nom-cv {
@@ -36,25 +42,20 @@ body {
     font-family: 'Roboto-Lt';
     font-size: 2em;
     margin: 0;
-    margin-top: 2%;
-    margin-left: 3%;
-
-    
 }
 
 .infos-CV {
+    color: white;
     text-align: left;
     font-family: 'Roboto-Lt';
     font-size: 2em;
-    color: white;
     margin: 0;
-    margin-left: 3%;
 }
 
 #intro {
     font-family: 'Roboto Lt';
     text-align: center;
-    font-size: 1.5vw;
+    font-size: 2em;
     align-self: center;
     width: 75%;
 }
@@ -87,12 +88,11 @@ body {
 	justify-content: flex-start;
 	align-items: stretch;
 	align-content: stretch;
-    font-size: 1vw;
 }
 
-.titres {
+h3 {
     color: #F27B9C;
-    font-size: 1.3vw;
+    font-size: 1.8em;
     text-align: center;
     font-family: 'Roboto-Lt';
 }
@@ -104,6 +104,7 @@ body {
 	justify-content: space-between;
 	align-items: stretch;
 	align-content: stretch;
+    margin-top: 10px;
     }
 
 .row div:first-child {
@@ -146,7 +147,7 @@ body {
 }
 
 .tâches {
-    font-size: 1vw;
+    font-size: 1.5em;
 }
 
 .CV-section-colonne {
@@ -156,7 +157,6 @@ body {
 	justify-content: space-between;
 	align-items: stretch;
 	align-content: stretch;
-    font-size: 1vw;
 }
 
 
@@ -174,11 +174,7 @@ p
     font-family: 'Roboto Lt';
 }
 
-span {
-    font-family: 'champagne__limousinesregular';
-}
-
 #interêts {
-    font-size: 1vw;
+    font-size: 1em;
 }
 

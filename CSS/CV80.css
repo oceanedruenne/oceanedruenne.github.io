@@ -1,8 +1,8 @@
 body {
-    overflow: scroll;
+    overflow: auto;
 }
 
-#body-container {
+#CV-container {
     display: flex;
 	flex-direction: column;
 	flex-wrap: nowrap;
@@ -19,16 +19,22 @@ body {
     justify-content: flex-start;
     align-items: stretch;
     align-content: stretch;
-    margin-top: -1%;
+}
+
+#entete-cv div:first-child {
+    border: solid;
+    height: 200px;
+    width: 200px;
+    margin: 20px 0px 20px 60px;
 }
 
 #oceane-photo {
-    height: 160px;
-    width: 187px;
-    margin-top: 7%;
-    margin-bottom: 7%;
-    margin-left: 3%;
-    border: solid #00ffff;
+    width: 100%;
+    height: 100%;
+}
+
+#infos-entete {
+    margin: 20px 0px 20px 10px;
 }
 
 #nom-cv {
@@ -37,8 +43,6 @@ body {
     font-size: 2em;
     text-shadow: 4px 2px #0013FF;
     margin: 0;
-    margin-left: 3%;
-    
 }
 
 .infos-CV {
@@ -48,17 +52,20 @@ body {
     text-shadow: 4px 2px #0013FF;
     color: #00ffff;
     margin: 0;
-    margin-left: 3%;
 }
 
 #intro {
-    font-family: 'Neuropol X Rg';
     text-align: center;
-    font-size: 1.5vw;
     align-self: center;
     width: 75%;
-    color: #6CFF00;
+    margin-top: 15px;
+}
+
+#intro p {
+    font-family: 'Neuropol X Rg';
+    font-size: 2em;
     text-shadow: 2px 2px #00ffff;
+    color: #6CFF00;
 }
 
 #CV {
@@ -89,13 +96,12 @@ body {
 	justify-content: flex-start;
 	align-items: stretch;
 	align-content: stretch;
-    font-size: 1vw;
 }
 
-.titres {
+h3 {
     color: #FF00FF;
     text-shadow: 6px 2px #0013FF;
-    font-size: 1.3vw;
+    font-size: 1.8em;
     text-align: center;
     font-family: 'Neuropol X Rg';
 }
@@ -108,7 +114,7 @@ body {
 	align-items: stretch;
 	align-content: stretch;
     color: white;
-    margin-left: 1%;
+    margin-top: 10px;
     }
 
 .row div:first-child {
@@ -130,8 +136,6 @@ body {
 	justify-content: flex-start;
 	align-items: stretch;
 	align-content: stretch;
-    color: white;
-    margin-left: 1%;
 }
 
 .row-deux div:first-child {
@@ -145,16 +149,19 @@ body {
 .bold {
     font-weight: bold;
     font-family: 'Neuropol X Rg';
+    color: white;
 }
 
 .italic {
     font-style: italic;
     font-family: 'Neuropol X Rg';
+    color: white;
 }
 
 .tâches {
-    font-size: 1vw;
+    font-size: 1.2em;
     font-family: 'Neuropol X Rg';
+    color: white;
 }
 
 .CV-section-colonne {
@@ -164,7 +171,6 @@ body {
 	justify-content: space-between;
 	align-items: stretch;
 	align-content: stretch;
-    font-size: 1vw;
 }
 
 
@@ -177,18 +183,13 @@ body {
 	align-content: stretch;
 }
 
-p
-{
+p {
     font-family: 'Neuropol X Rg';
-}
-
-span {
-    font-family: 'champagne__limousinesregular';
+    color: white;
 }
 
 #interêts {
-    font-size: 1vw;
+    font-size: 1em;
     color: white;
-    margin-left: 1%;
 }
 

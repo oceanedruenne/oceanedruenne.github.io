@@ -47,14 +47,13 @@ body {
     width: 50%;
     height: 100%;
     float: left;
-
 }
 
-#moitiephoto img:first-of-type {
+#moitiephoto img {
     height: 100%;
     width: 100%;
     object-fit: cover;
-    object-position: 0px -150px;
+    object-position: center 33%;
 }
 
 #moitietexte {
@@ -92,8 +91,8 @@ header {
     text-align: left;
     font-family: 'Roboto-Lt';
     color: #F27B9C;
-    padding: 0px 60px;
     padding: 0;
+    margin: 0;
 }
 
 hr {
@@ -105,8 +104,6 @@ nav ul {
     display: flex;
     justify-content: space-between;
     padding: 0;
-    bottom: 1px;
-    
 }
 
 nav a {
@@ -136,9 +133,3 @@ ul {
     text-decoration: underline;
     color: #F27B9C;
 }
-
-.flex-item-50 {
-    flex-basis: 50%;
-}
-
-
