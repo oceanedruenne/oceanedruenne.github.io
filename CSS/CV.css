@@ -146,10 +146,6 @@ h3 {
     font-family: 'Roboto Lt';
 }
 
-.tâches {
-    font-size: 1.5em;
-}
-
 .CV-section-colonne {
     display: flex;
 	flex-direction: column;

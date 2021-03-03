@@ -7,13 +7,25 @@
     font-size: 2.8em; 
 }
 
-#textun
-{
-    font-family: 'VCR OSD Mono';
+.informations {
     color: #FF00F7;
     font-size: 1.3em;
+    font-family: 'VCR OSD Mono';
+    text-align: left;
     padding: 0px 60px;
-    
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: stretch;
+	align-content: stretch;
+}
+
+.informations div:first-child {
+    margin-right: 8px;
+}
+.informations div:last-child a {
+    vertical-align: middle;
 }
 
 
