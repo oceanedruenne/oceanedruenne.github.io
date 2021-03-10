@@ -126,6 +126,7 @@ h3 {
 	justify-content: flex-start;
 	align-items: stretch;
 	align-content: stretch;
+    font-size: 1.3em;
 }
 
 .row-deux div:first-child {
@@ -147,7 +148,7 @@ h3 {
 }
 
 .taches {
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
 
 .CV-section-colonne {
@@ -175,6 +176,6 @@ p
 }
 
 #interêts {
-    font-size: 1em;
+    font-size: 1.3em;
 }
 
