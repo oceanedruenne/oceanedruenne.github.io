@@ -137,6 +137,7 @@ h3 {
 	justify-content: flex-start;
 	align-items: stretch;
 	align-content: stretch;
+    font-size: 1.3em;
 }
 
 .row-deux div:first-child {
