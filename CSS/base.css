@@ -25,6 +25,16 @@
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'Inter';
+    src: url('../FONTS/Inter-VariableFont_slnt\,wght.woff2') format('woff2'),
+        url('../FONTS/Inter-VariableFont_slnt\,wght.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
 html {
     height: 100%;
     width: 100%;
@@ -32,7 +42,7 @@ html {
 
 body {
     overflow-y: hidden;
-    background-color: #FAFAFA;
+    background-color: #001327;
     margin: 0;
     height: 100%;
     width: 100%;
@@ -69,7 +79,7 @@ header {
 }
 
 #entete {
-    background-color: #FAFAFA;
+    background-color: #001327;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -89,8 +99,8 @@ header {
 
 #titre {
     text-align: left;
-    font-family: 'Roboto-Lt';
-    color: #F27B9C;
+    font-family: 'Inter';
+    color: #FAFAFA;
     margin: 16px 0 0 0;
 }
 
@@ -107,8 +117,8 @@ nav ul {
 
 nav a {
     font-size: 2em;
-    color: #000000;
-    font-family: 'champagne__limousinesregular';
+    color: #fafafa;
+    font-family: 'Inter';
     text-decoration: none;
     font-weight: bold;
 }
@@ -119,16 +129,16 @@ nav a {
 }
 
 a:hover {
-    color: #F27B9C;
+    color: #4c6285;
     text-decoration: underline;
 }
 
 ul {
-    font-family: 'champagne__limousinesregular';
+    font-family: 'Inter';
 }
 
 .liens {
-    color: #808080;
+    color: #4c6285;
     text-decoration: underline;
-    color: #F27B9C;
+    color: #fafafa;
 }

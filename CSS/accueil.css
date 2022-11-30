@@ -1,28 +1,39 @@
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../FONTS/Inter-VariableFont_slnt\,wght.woff2') format('woff2'),
+        url('../FONTS/Inter-VariableFont_slnt\,wght.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 #bienvenue {
-    color: #F27B9C;
+    color: #FAFAFA;
     text-align: left;
     padding: 0px 60px;
     font-size: 2.8em;
+    font-family : 'Inter';
 }
 
 #textun{
-    color: #000000;
+    color: #FAFAFA;
     font-size: 2em;
-    font-family: 'champagne__limousinesregular';
+    font-family: 'Inter';
     text-align: left;
     padding: 0px 60px;
 }
 
 #textdeux {
-    font-family: 'champagne__limousinesregular';
-    color: #424141;
+    font-family: 'Inter';
+    color: #FAFAFA;
     font-size: 1.5em;
     padding: 0px 60px;
 }
 
 #texttrois {
-    font-family: 'champagne__limousinesregular';
-    color: #424141;
+    font-family: 'Inter';
+    color: #FAFAFA;
     font-size: 1.2em;
     padding: 0px 60px;
 }
