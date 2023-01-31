@@ -145,7 +145,7 @@ ul {
 
 div a
 {
-    font-size: 1.5em;
+    font-size: 2em;
     color: #fafafa;
     font-family: 'Inter';
     text-decoration: none;
@@ -153,13 +153,50 @@ div a
 }
 
 h2 {
-    font-size: 2.5em;
+    font-size: 2em;
     color : #fafafa;
     font-family: 'Inter';
+    text-align: center;
 }
 
 p {
-    font-size: 2em;
+    font-size: 1em;
     color:#fafafa;
     font-family: 'Inter';
 }
+
+#url a 
+{
+    font-size: 1em;
+}
+
+p a 
+{
+    font-size: 1em;
+}
+
+.infos 
+{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-evenly;
+	align-items: center;
+	align-content: stretch;
+}
+
+#main_container 
+{
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	align-content: stretch;
+}
+
+#main_container div
+{
+    margin-bottom: 3em;
+}
+

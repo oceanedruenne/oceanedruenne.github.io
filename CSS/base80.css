@@ -136,3 +136,62 @@ a:hover {
 }
 
 
+div a
+{
+    font-size: 1.5em;
+    color: #FF00FF;
+    font-family: 'Neuropol X Rg';
+    text-decoration: none;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 1em;
+    color : #00ffff;
+    font-family: 'Neuropol X Rg';
+    text-align: center;
+}
+
+p {
+    font-size: 1em;
+    color:#FF00FF;
+    font-family: 'Neuropol X Rg';
+}
+
+
+p a 
+{
+    font-size: 1em;
+    font-family: 'Neuropol X Rg';
+}
+
+.infos 
+{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-evenly;
+	align-items: center;
+	align-content: stretch;
+}
+
+#main_container 
+{
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	align-content: stretch;
+}
+
+#main_container div
+{
+    margin-bottom: 3em;
+}
+
+#url a 
+{
+    font-size: 1em;
+}
+
