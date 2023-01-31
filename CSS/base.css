@@ -142,3 +142,24 @@ ul {
     text-decoration: underline;
     color: #fafafa;
 }
+
+div a
+{
+    font-size: 1.5em;
+    color: #fafafa;
+    font-family: 'Inter';
+    text-decoration: none;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 2.5em;
+    color : #fafafa;
+    font-family: 'Inter';
+}
+
+p {
+    font-size: 2em;
+    color:#fafafa;
+    font-family: 'Inter';
+}
