@@ -163,16 +163,19 @@ p {
     font-size: 1em;
     color:#fafafa;
     font-family: 'Inter';
+    text-align: justify;
 }
 
 #url a 
 {
     font-size: 1em;
+    text-align: justify;
 }
 
 p a 
 {
     font-size: 1em;
+    text-align: justify;
 }
 
 .infos 
@@ -183,6 +186,7 @@ p a
 	justify-content: space-evenly;
 	align-items: center;
 	align-content: stretch;
+    text-align: justify;
 }
 
 #main_container 
@@ -193,10 +197,12 @@ p a
 	justify-content: space-between;
 	align-items: center;
 	align-content: stretch;
+    text-align: justify;
 }
 
 #main_container div
 {
     margin-bottom: 3em;
+    text-align: justify;
 }
 

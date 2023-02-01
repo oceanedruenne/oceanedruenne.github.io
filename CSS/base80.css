@@ -143,6 +143,7 @@ div a
     font-family: 'Neuropol X Rg';
     text-decoration: none;
     font-weight: bold;
+    text-align: justify;
 }
 
 h2 {
@@ -156,6 +157,7 @@ p {
     font-size: 1em;
     color:#FF00FF;
     font-family: 'Neuropol X Rg';
+    text-align: justify;
 }
 
 
@@ -163,6 +165,7 @@ p a
 {
     font-size: 1em;
     font-family: 'Neuropol X Rg';
+    text-align: justify;
 }
 
 .infos 
@@ -173,6 +176,7 @@ p a
 	justify-content: space-evenly;
 	align-items: center;
 	align-content: stretch;
+    text-align: justify;
 }
 
 #main_container 
@@ -183,15 +187,18 @@ p a
 	justify-content: space-between;
 	align-items: center;
 	align-content: stretch;
+    text-align: justify;
 }
 
 #main_container div
 {
     margin-bottom: 3em;
+    text-align: justify;
 }
 
 #url a 
 {
     font-size: 1em;
+    text-align: justify;
 }
 
